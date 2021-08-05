@@ -86,7 +86,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "middle":     $gray-400
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -248,13 +249,17 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 
 // scss-docs-start spacer-variables-maps
 $spacer: 1rem !default;
+$special-spacer: 12px;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
+  1: $spacer * .25, //4px
+  2: $spacer * .5,  //8px
+  3: $spacer, //16px
+  4: $spacer * 1.5, //24px
+  5: $spacer * 2, //32px
+  6: $spacer * 3, //48px
+  7: $special-spacer, //12px
+  8: $special-spacer * 2, //24px
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -421,7 +426,7 @@ $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberati
 // stylelint-enable value-keyword-case
 $font-family-base:            var(--#{$variable-prefix}font-sans-serif) !default;
 $font-family-code:            var(--#{$variable-prefix}font-monospace) !default;
-
+$font-family-base: "Lato", "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
 $font-size-root:              null !default;
@@ -451,12 +456,13 @@ $h6-font-size:                $font-size-base !default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
+$font-size-special: 12px;
 $font-sizes: (
-  1: $h1-font-size,
-  2: $h2-font-size,
-  3: $h3-font-size,
-  4: $h4-font-size,
-  5: $h5-font-size,
+  1: $font-size-base * 0.75, //12px
+  2: $font-size-base * 0.875, //14px
+  3: $font-size-base * 1.25, //20px
+  4: $font-size-base * 1.5, //24px
+  5: $font-size-special,
   6: $h6-font-size
 ) !default;
 // scss-docs-end font-sizes

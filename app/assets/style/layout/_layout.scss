@@ -1,0 +1,53 @@
+// h1 logo
+h1 .logo{
+  width: 151px;
+  height: 40px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg);
+  background-repeat: no-repeat;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+// sidebarMenu
+.sidebarMenu{
+  position: fixed;
+  min-width: 200px;
+  min-height: 100vh;
+}
+
+// nav
+.nav{
+  &-link{
+    position: relative;
+    color: $gray-900;
+  }
+  &-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid transparent;
+  }
+  &-link:hover {
+    color: $success;
+    &::before{
+      border-left: 4px solid $success;
+    }
+  }
+  &-link.active{
+    color: $success;
+    &::before{
+      border-left: 4px solid $success;
+    }
+  }
+}
+
+// sidebarUser
+.sidebarUser{
+  img{
+    width: 40px;
+    height: 40px;
+  }
+}

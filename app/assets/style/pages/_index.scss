@@ -1,0 +1,55 @@
+// assignment
+.assignment{
+    margin-left: 266px;
+    min-height: 100vh
+}
+
+// assignmentInfo
+.list-group-item.active{
+    background-color: $light;
+    border: 1px solid $gray-400;
+}
+
+// assignmentDetail
+.card{
+  img{
+    width: 40px;
+    height: 40px;
+  }
+}
+.textareaReply{
+  width: 100%;
+  height: 200px;
+  border: none;
+  resize: none;
+}
+
+
+
+
+/*
+$font-size-special: 12px;
+$font-sizes: (
+  1: $font-size-base * 0.75, //12px
+  2: $font-size-base * 0.875, //14px
+  3: $font-size-base * 1.25, //20px
+  4: $font-size-base * 1.5, //24px
+  5: $font-size-special,
+  6: $h6-font-size
+) !default;
+
+// Spacing
+$spacer: 1rem !default;
+$special-spacer: 12px;
+$spacers: (
+  0: 0,
+  1: $spacer * .25, //4px
+  2: $spacer * .5,  //8px
+  3: $spacer, //16px
+  4: $spacer * 1.5, //24px
+  5: $spacer * 2, //32px
+  6: $spacer * 3, //48px
+  7: $special-spacer, //12px
+  8: $special-spacer * 2, //24px
+) !default;
+*/

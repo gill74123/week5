@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap');
+
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 
-
-
-
-@import "./utilities/font";
+// @import "./utilities/font";
 @import "./utilities/base";
 
-@import './pages/index.scss'
+
+@import "./layout/layout";
+@import "./pages/index";
+@import "./pages/admin";
