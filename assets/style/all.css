@@ -12766,15 +12766,26 @@ a {
   color: #198754;
 }
 
+.main {
+  margin-left: 266px;
+  min-height: 100vh;
+}
+
 .btn-hover:hover, .link-hover:hover {
   color: #198754;
 }
 
-h1 .logo, .h1 .logo {
-  width: 151px;
+.user-img {
+  width: 40px;
   height: 40px;
+}
+
+h1 .logo, .h1 .logo {
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg);
   background-repeat: no-repeat;
+  width: 151px;
+  height: 40px;
+  display: block;
   text-indent: 101%;
   white-space: nowrap;
   overflow: hidden;
@@ -12816,24 +12827,9 @@ h1 .logo, .h1 .logo {
   border-left: 4px solid #198754;
 }
 
-.sidebarUser img {
-  width: 40px;
-  height: 40px;
-}
-
-.assignment {
-  margin-left: 266px;
-  min-height: 100vh;
-}
-
 .list-group-item.active {
   background-color: #f8f9fa;
   border: 1px solid #ced4da;
-}
-
-.card img {
-  width: 40px;
-  height: 40px;
 }
 
 .textareaReply {
@@ -12869,11 +12865,6 @@ $spacers: (
   8: $special-spacer * 2, //24px
 ) !default;
 */
-.admin {
-  margin-left: 266px;
-  min-height: 100vh;
-}
-
 .table {
   margin-bottom: 63px;
 }
@@ -12919,32 +12910,5 @@ $spacers: (
 .collapsed .expand_less {
   display: none;
 }
-
-/*
-$font-size-special: 12px;
-$font-sizes: (
-  1: $font-size-base * 0.75, //12px
-  2: $font-size-base * 0.875, //14px
-  3: $font-size-base * 1.25, //20px
-  4: $font-size-base * 1.5, //24px
-  5: $font-size-special,
-  6: $h6-font-size
-) !default;
-
-// Spacing
-$spacer: 1rem !default;
-$special-spacer: 12px;
-$spacers: (
-  0: 0,
-  1: $spacer * .25, //4px
-  2: $spacer * .5,  //8px
-  3: $spacer, //16px
-  4: $spacer * 1.5, //24px
-  5: $spacer * 2, //32px
-  6: $spacer * 3, //48px
-  7: $special-spacer, //12px
-  8: $special-spacer * 2, //24px
-) !default;
-*/
 
 /*# sourceMappingURL=all.css.map */
