@@ -1,3 +1,4 @@
+// 全域類別
 body{
     font-family: $font-family-base;
     font-weight: $font-weight-normal;
@@ -10,8 +11,3 @@ a{
     color: $success;
 }
 
-.btn-hover, .link-hover{
-    &:hover{
-        color: $success;
-    }
-}

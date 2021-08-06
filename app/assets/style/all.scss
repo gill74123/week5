@@ -4,11 +4,11 @@
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-
-// @import "./utilities/font";
+@import "./helpers/mixin";
 @import "./utilities/base";
+@import "./utilities/containers";
+@import "./utilities/utilities";
 
-
-@import "./layout/layout";
+@import "./layout/sidebar";
 @import "./pages/index";
 @import "./pages/admin";

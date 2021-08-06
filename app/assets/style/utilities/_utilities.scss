@@ -1,0 +1,12 @@
+// btn-hover, link-hover
+.btn-hover, .link-hover{
+    &:hover{
+        color: $success;
+    }
+}
+
+// 使用者頭貼
+.user-img{
+    width: 40px;
+    height: 40px;
+}

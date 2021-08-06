@@ -1,22 +1,9 @@
-// assignment
-.assignment{
-    margin-left: 266px;
-    min-height: 100vh
-}
-
 // assignmentInfo
 .list-group-item.active{
     background-color: $light;
     border: 1px solid $gray-400;
 }
 
-// assignmentDetail
-.card{
-  img{
-    width: 40px;
-    height: 40px;
-  }
-}
 .textareaReply{
   width: 100%;
   height: 200px;
