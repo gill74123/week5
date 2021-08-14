@@ -19,37 +19,51 @@
 
 <body>
   <div class="sidebarMenu d-flex flex-column justify-content-between bg-light">
-    <nav class="nav flex-column ">
-      <h1 class="pt-5 px-5">
+    <div>
+      <h1 class="pt-5 px-5 mb-5">
         <a class="logo" href="#">ANSWER</a>
       </h1>
-      <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center" aria-current="page" href="#">
-        <span class="material-icons me-3">insert_chart</span>
-        Dashboard
-      </a>
-      <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center" href="#">
-        <span class="material-icons me-3">question_answer</span>
-        Question
-      </a>
-      <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center <%= current === 'index' && 'active' %>"
-        href="index.html">
-        <span class="material-icons me-3">assignment</span>
-        Assignment
-      </a>
-      <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center" href="#">
-        <span class="material-icons me-3">video_library</span>
-        Course
-      </a>
-      <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center <%= current === 'admin' && 'active' %>"
-        href="admin.html">
-        <span class="material-icons me-3">people</span>
-        Admin
-      </a>
-      <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center" href="#">
-        <span class="material-icons me-3">settings</span>
-        Settings
-      </a>
-    </nav>
+      <ul class="nav flex-column ">
+        <li>
+          <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center" aria-current="page" href="#">
+            <span class="material-icons me-3">insert_chart</span>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center" href="#">
+            <span class="material-icons me-3">question_answer</span>
+            Question
+          </a>  
+        </li>
+        <li>
+          <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center <%= current === 'index' && 'active' %>"
+            href="index.html">
+            <span class="material-icons me-3">assignment</span>
+            Assignment
+          </a>  
+        </li>
+        <li>
+          <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center" href="#">
+            <span class="material-icons me-3">video_library</span>
+            Course
+          </a>  
+        </li>
+        <li>
+          <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center <%= current === 'admin' && 'active' %>"
+            href="admin.html">
+            <span class="material-icons me-3">people</span>
+            Admin
+          </a>  
+        </li>
+        <li>
+          <a class="nav-link fw-bold py-7 px-5 d-flex align-items-center" href="#">
+            <span class="material-icons me-3">settings</span>
+            Settings
+          </a>  
+        </li>
+      </ul>
+    </div>
 
     <div class="sidebarUser d-flex align-items-center p-5">
       <img class="user-img rounded-circle me-3"

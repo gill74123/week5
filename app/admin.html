@@ -26,51 +26,51 @@ current: admin
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body px-5">
-                            <form action="" class="border-bottom pb-4">
-                                <h4 class="fs-3 fw-bold text-dark mb-3">Account</h4>
-                                <label class="fs-2 mb-1" for="name">Name</label><br>
-                                <input class="container-fluid form-control-lg mb-3" type="text" name="name"
-                                    id="name"><br>
-                                <label class="fs-2 mb-1" for="mail">Email</label><br>
-                                <input class="container-fluid form-control-lg" type="mail" name="mail" id="mail">
-                            </form>
-                            <form class="border-bottom py-4">
-                                <h4 class="fs-3 fw-bold text-dark mb-3">Verification</h4>
-                                <div class="mb-3">
-                                    <span class="material-icons fs-4 text-danger align-middle me-2">warning</span>
-                                    <span class="fw-bold align-middle">Unverified</span>
+                            <form action="">
+                                <div class="border-bottom pb-4">
+                                    <h4 class="fs-3 fw-bold text-dark mb-3">Account</h4>
+                                    <label class="fs-2 mb-1" for="name">Name</label><br>
+                                    <input class="w-100 form-control-lg mb-3" type="text" name="name" id="name"><br>
+                                    <label class="fs-2 mb-1" for="mail">Email</label><br>
+                                    <input class="w-100 form-control-lg" type="mail" name="mail" id="mail">
                                 </div>
-                                <button type="button"
-                                    class="btn btn-outline-success container-fluid m-0 py-3 disabled">Send
-                                    Verification Mail</button>
-                            </form>
-                            <form class="border-bottom py-4">
-                                <h4 class="fs-3 fw-bold text-dark mb-3">Access Level</h4>
-                                <input class="container-fluid p-3" list="level" name="accessLevel"
-                                    placeholder="-Choose access level-">
-                                <datalist id="level">
-                                    <option value="level 1">
-                                    <option value="level 2">
-                                    <option value="level 3">
-                                </datalist>
-                            </form>
-                            <form class="pt-4 pb-5">
-                                <h4 class="fs-3 fw-bold mb-3">Custom Access</h4>
-                                <input class="form-check-input me-2" type="checkbox" id="vehicle1" name="vehicle1"
-                                    value="Lecture">
-                                <label for="vehicle1">Lecture</label><br>
-                                <input class="form-check-input me-2" type="checkbox" id="vehicle2" name="vehicle2"
-                                    value="Coupon">
-                                <label for="vehicle2">Coupon</label><br>
-                                <input class="form-check-input me-2" type="checkbox" id="vehicle3" name="vehicle3"
-                                    value="Message">
-                                <label for="vehicle3">Message</label><br>
-                                <input class="form-check-input me-2" type="checkbox" id="vehicle4" name="vehicle3"
-                                    value="Setting">
-                                <label for="vehicle4">Setting</label><br>
-                                <input class="form-check-input me-2" type="checkbox" id="vehicle5" name="vehicle3"
-                                    value="Task Menu">
-                                <label for="vehicle5">Task Menu</label><br>
+                                <div class="border-bottom py-4">
+                                    <h4 class="fs-3 fw-bold text-dark mb-3">Verification</h4>
+                                    <div class="mb-3">
+                                        <span class="material-icons fs-4 text-danger align-middle me-2">warning</span>
+                                        <span class="fw-bold align-middle">Unverified</span>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-success w-100 m-0 py-3 disabled">Send
+                                        Verification Mail</button>
+                                </div>
+                                <div class="border-bottom py-4">
+                                    <h4 class="fs-3 fw-bold text-dark mb-3">Access Level</h4>
+                                    <input class="w-100 p-3" list="level" name="accessLevel"
+                                        placeholder="-Choose access level-">
+                                    <datalist id="level">
+                                        <option value="level 1">
+                                        <option value="level 2">
+                                        <option value="level 3">
+                                    </datalist>
+                                </div>
+                                <div class="pt-4 pb-5">
+                                    <h4 class="fs-3 fw-bold mb-3">Custom Access</h4>
+                                    <input class="form-check-input me-2" type="checkbox" id="vehicle1" name="vehicle1"
+                                        value="Lecture">
+                                    <label for="vehicle1">Lecture</label><br>
+                                    <input class="form-check-input me-2" type="checkbox" id="vehicle2" name="vehicle2"
+                                        value="Coupon">
+                                    <label for="vehicle2">Coupon</label><br>
+                                    <input class="form-check-input me-2" type="checkbox" id="vehicle3" name="vehicle3"
+                                        value="Message">
+                                    <label for="vehicle3">Message</label><br>
+                                    <input class="form-check-input me-2" type="checkbox" id="vehicle4" name="vehicle3"
+                                        value="Setting">
+                                    <label for="vehicle4">Setting</label><br>
+                                    <input class="form-check-input me-2" type="checkbox" id="vehicle5" name="vehicle3"
+                                        value="Task Menu">
+                                    <label for="vehicle5">Task Menu</label><br>
+                                </div>
                             </form>
                         </div>
                         <div class="modal-footer px-5 py-3">
@@ -315,63 +315,65 @@ current: admin
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body px-5">
-                    <form action="" class="border-bottom pb-4">
-                        <h4 class="fs-3 fw-bold text-dark mb-3">Account</h4>
-                        <label class="fs-2 mb-1" for="name">Name</label><br>
-                        <input class="container-fluid form-control-lg border-0 mb-3" type="text" name="name" id="name"
-                            placeholder="Emir Wicks" disabled><br>
-                        <label class="fs-2 mb-1" for="mail">Email</label><br>
-                        <input class="container-fluid form-control-lg border-0 input-placeholder-dark" type="mail"
-                            name="mail" id="mail" placeholder="emir.wicks@mail.com" disabled>
-                    </form>
-                    <form class="border-bottom py-4">
-                        <h4 class="fs-3 fw-bold text-dark mb-3">Verification</h4>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div>
-                                <span class="material-icons fs-4 text-success align-middle me-2">check_circle</span>
-                                <span class="fw-bold align-middle">Unverified</span>
+                    <form action="">
+                        <div class="border-bottom pb-4">
+                            <h4 class="fs-3 fw-bold text-dark mb-3">Account</h4>
+                            <label class="fs-2 mb-1" for="name">Name</label><br>
+                            <input class="w-100 form-control-lg border-0 mb-3" type="text" name="name" id="name"
+                                placeholder="Emir Wicks" disabled><br>
+                            <label class="fs-2 mb-1" for="mail">Email</label><br>
+                            <input class="w-100 form-control-lg border-0 input-placeholder-dark" type="mail" name="mail"
+                                id="mail" placeholder="emir.wicks@mail.com" disabled>
+                        </div>
+                        <div class="border-bottom py-4">
+                            <h4 class="fs-3 fw-bold text-dark mb-3">Verification</h4>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <span class="material-icons fs-4 text-success align-middle me-2">check_circle</span>
+                                    <span class="fw-bold align-middle">Unverified</span>
+                                </div>
+                                <span class="fs-2 text-dark">2020/4/12</span>
                             </div>
-                            <span class="fs-2 text-dark">2020/4/12</span>
+                            <button type="button" class="btn btn-outline-middle w-100 m-0 py-3 disabled">Send
+                                Verification Mail</button>
                         </div>
-                        <button type="button" class="btn btn-outline-middle container-fluid m-0 py-3 disabled">Send
-                            Verification Mail</button>
-                    </form>
-                    <form class="border-bottom py-4">
-                        <h4 class="fs-3 fw-bold text-dark mb-3">Access Level</h4>
-                        <input class="container-fluid p-3" list="level" name="accessLevel" placeholder="Admin">
-                        <datalist id="level">
-                            <option value="level 1">
-                            <option value="level 2">
-                            <option value="level 3">
-                        </datalist>
-                    </form>
-                    <form class="border-bottom py-4">
-                        <h4 class="fs-3 fw-bold mb-3">Custom Access</h4>
-                        <input class="form-check-input me-2" type="checkbox" id="access1" name="vehicle1"
-                            value="Lecture">
-                        <label for="access1">Lecture</label><br>
-                        <input class="form-check-input me-2" type="checkbox" id="access2" name="vehicle2"
-                            value="Coupon">
-                        <label for="access2">Coupon</label><br>
-                        <input class="form-check-input me-2" type="checkbox" id="access3" name="vehicle3"
-                            value="Message">
-                        <label for="access3">Message</label><br>
-                        <input class="form-check-input me-2" type="checkbox" id="access4" name="vehicle3"
-                            value="Setting">
-                        <label for="access4">Setting</label><br>
-                        <input class="form-check-input me-2" type="checkbox" id="access5" name="vehicle3"
-                            value="Task Menu">
-                        <label for="access5">Task Menu</label><br>
-                    </form>
-                    <form class="py-4">
-                        <h4 class="fs-3 fw-bold text-dark mb-3">Deactivate Account</h4>
-                        <div class="text-danger mb-3">
-                            <span class="material-icons fs-4 align-middle me-2">warning</span>
-                            <span class="align-middle">This cannot be undone!</span>
+                        <div class="border-bottom py-4">
+                            <h4 class="fs-3 fw-bold text-dark mb-3">Access Level</h4>
+                            <input class="w-100 p-3" list="level" name="accessLevel" placeholder="Admin">
+                            <datalist id="level">
+                                <option value="level 1">
+                                <option value="level 2">
+                                <option value="level 3">
+                            </datalist>
                         </div>
-                        <button type="button" class="btn btn-outline-danger container-fluid m-0 py-3">Deactivate This
-                            Account
-                        </button>
+                        <div class="border-bottom py-4">
+                            <h4 class="fs-3 fw-bold mb-3">Custom Access</h4>
+                            <input class="form-check-input me-2" type="checkbox" id="access1" name="vehicle1"
+                                value="Lecture">
+                            <label for="access1">Lecture</label><br>
+                            <input class="form-check-input me-2" type="checkbox" id="access2" name="vehicle2"
+                                value="Coupon">
+                            <label for="access2">Coupon</label><br>
+                            <input class="form-check-input me-2" type="checkbox" id="access3" name="vehicle3"
+                                value="Message">
+                            <label for="access3">Message</label><br>
+                            <input class="form-check-input me-2" type="checkbox" id="access4" name="vehicle3"
+                                value="Setting">
+                            <label for="access4">Setting</label><br>
+                            <input class="form-check-input me-2" type="checkbox" id="access5" name="vehicle3"
+                                value="Task Menu">
+                            <label for="access5">Task Menu</label>
+                        </div>
+                        <div class="py-4">
+                            <h4 class="fs-3 fw-bold text-dark mb-3">Deactivate Account</h4>
+                            <div class="text-danger mb-3">
+                                <span class="material-icons fs-4 align-middle me-2">warning</span>
+                                <span class="align-middle">This cannot be undone!</span>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger w-100 m-0 py-3">Deactivate This
+                                Account
+                            </button>
+                        </div>
                     </form>
                 </div>
                 <div class="modal-footer py-3 px-5">
