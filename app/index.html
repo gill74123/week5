@@ -40,7 +40,8 @@ current: index
   <div class="container">
     <div class="d-flex justify-content-between align-items-center pt-7">
       <div class="dropdown">
-        <button class="btn btn-hover dropdown-toggle fw-bold border-0 p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-hover dropdown-toggle fw-bold border-0 p-0" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false">
           All (4)
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -69,7 +70,7 @@ current: index
                 <p class="fw-bold text-dark m-0">Please check this file…</p>
                 <p class="fs-5 text-muted m-0">Emily Wang</p>
               </div>
-            </a>  
+            </a>
           </li>
           <li>
             <a href="#" class="list-group-item list-group-item-action p-7" aria-current="true">
@@ -81,7 +82,7 @@ current: index
                 <p class="fw-bold text-dark m-0">My Homework</p>
                 <p class="fs-5 text-muted m-0">David Xu</p>
               </div>
-            </a>  
+            </a>
           </li>
           <li>
             <a href="#" class="list-group-item list-group-item-action p-7" aria-current="true">
@@ -93,7 +94,7 @@ current: index
                 <p class="fw-bold text-dark m-0">Have a problem with this…</p>
                 <p class="fs-5 text-muted m-0">Tony Wei</p>
               </div>
-            </a>  
+            </a>
           </li>
           <li>
             <a href="#" class="list-group-item list-group-item-action p-7" aria-current="true">
@@ -105,7 +106,7 @@ current: index
                 <p class="fw-bold text-dark m-0">Did I do it right?</p>
                 <p class="fs-5 text-muted m-0">Christina Lin</p>
               </div>
-            </a>  
+            </a>
           </li>
         </ul>
       </div>
@@ -120,57 +121,67 @@ current: index
             </div>
             <span class="material-icons">more_vert</span>
           </div>
-          <div class="card-body d-flex pe-5">
-            <img class="user-img rounded-circle flex-shrink-0 me-2"
-              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true"
-              alt="emilywang">
-            <div class="flex-grow-1 pb-3 border-bottom">
-              <h5 class="card-title fw-bold">
-                Emily Wang<br>
-                <span class="fs-5 fw-normal text-muted mt-1">10:38 AM (4 hours ago)</span>
-              </h5>
-              <p class="card-text fs-2 text-dark">Hi Teacher, the attached file is my homework of chapter 2. And here
-                comes a question: Why in the following code the height of the <a class="d-inline bg-light"
-                  href="#">div</a> is bigger than the height of the <a class="d-inline bg-light" href="#">img</a>? There
-                is a gap below the image, but it doesn’t seems to be a padding/margin.<br>What is the gap or extra space
-                below image?</p>
-              <a href="#" class="btn btn-outline-middle text-dark" download="HW-2-David.zip">
-                <span class="material-icons align-middle">attach_file</span>
-                HW-2-David.zip
-              </a>
-            </div>
-          </div>
-
-          <!-- multiCollapse1 -->
-          <div class="multi-collapse collapse show" id="multiCollapse1">
-            <div class="card-body d-flex pe-5 pb-4">
-              <img class="user-img rounded-circle flex-shrink-0 me-2"
-                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
-                alt="andychen">
-              <div class="flex-grow-1">
-                <div class="d-flex justify-content-between">
+          <div class="card-body pb-0">
+            <ul class="list-unstyled">
+              <li class="d-flex pe-5 mb-3">
+                <img class="user-img rounded-circle flex-shrink-0 me-2"
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true"
+                  alt="emilywang">
+                <div class="flex-grow-1 pb-3 border-bottom">
                   <h5 class="card-title fw-bold">
-                    Andy Chen (You)<br>
-                    <span class="fs-5 fw-normal text-muted mt-1">13:24 AM (1 hours ago)</span>
+                    Emily Wang<br>
+                    <span class="fs-5 fw-normal text-muted mt-1">10:38 AM (4 hours ago)</span>
                   </h5>
-                  <div>
-                    <span class="material-icons-outlined me-4">grade</span>
-                    <span class="material-icons">edit</span>
+                  <p class="card-text fs-2 text-dark">Hi Teacher, the attached file is my homework of chapter 2. And
+                    here
+                    comes a question: Why in the following code the height of the <a class="d-inline bg-light"
+                      href="#">div</a> is bigger than the height of the <a class="d-inline bg-light" href="#">img</a>?
+                    There
+                    is a gap below the image, but it doesn’t seems to be a padding/margin.<br>What is the gap or extra
+                    space
+                    below image?</p>
+                  <a href="#" class="btn btn-outline-middle text-dark" download="HW-2-David.zip">
+                    <span class="material-icons align-middle">attach_file</span>
+                    HW-2-David.zip
+                  </a>
+                </div>
+              </li>
+
+              <!-- multiCollapse1 -->
+              <li class="multi-collapse collapse show" id="multiCollapse1">
+                <div >
+                  <div class="d-flex pe-5 pb-4">
+                    <img class="user-img rounded-circle flex-shrink-0 me-2"
+                      src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
+                      alt="andychen">
+                    <div class="flex-grow-1">
+                      <div class="d-flex justify-content-between">
+                        <h5 class="card-title fw-bold">
+                          Andy Chen (You)<br>
+                          <span class="fs-5 fw-normal text-muted mt-1">13:24 AM (1 hours ago)</span>
+                        </h5>
+                        <div>
+                          <span class="material-icons-outlined me-4">grade</span>
+                          <span class="material-icons">edit</span>
+                        </div>
+                      </div>
+                      <p class="card-text fs-2 text-dark pb-5">Hi David, by default, an image is rendered inline, like a
+                        letter
+                        so it sits on the same line that a, b, c and d sit on. There is space below that line for the
+                        descenders
+                        you find on letters like g, j, p and q.</p>
+                      <p class="fs-2 text-dark pb-5">You can:</p>
+                      <p class="fs-2 text-dark m-0">
+                        • adjust the <a class="d-inline bg-light" href="#">vertical-align</a> of the image to position
+                        it
+                        elsewhere (e.g. the <a class="d-inline bg-light" href="#">middle</a> ) or
+                        <br>• change the <a class="d-inline bg-light" href="#">display</a> so it isn’t inline.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <p class="card-text fs-2 text-dark pb-5">Hi David, by default, an image is rendered inline, like a
-                  letter
-                  so it sits on the same line that a, b, c and d sit on. There is space below that line for the
-                  descenders
-                  you find on letters like g, j, p and q.</p>
-                <p class="fs-2 text-dark pb-5">You can:</p>
-                <p class="fs-2 text-dark m-0">
-                  • adjust the <a class="d-inline bg-light" href="#">vertical-align</a> of the image to position it
-                  elsewhere (e.g. the <a class="d-inline bg-light" href="#">middle</a> ) or
-                  <br>• change the <a class="d-inline bg-light" href="#">display</a> so it isn’t inline.
-                </p>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
 
           <!-- multiCollapse2 -->

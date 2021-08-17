@@ -5,7 +5,10 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 @import "./helpers/mixin";
-@import "./utilities/base";
+
+// config放置初始化設定
+@import "./config/base";
+
 @import "./utilities/containers";
 @import "./utilities/utilities";
 
